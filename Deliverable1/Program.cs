@@ -6,7 +6,7 @@ namespace Deliverable1
     {
         static void Main(string[] args)
         {
-            string message = "Hello World!";
+            string message = "Goodbye, World!";
             Console.WriteLine(message);
         }
     }
