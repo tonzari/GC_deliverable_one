@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Linq;
+using System.Linq; // I hope it's okay to use LINQ in this assignment!
 
 namespace Deliverable1
 {
@@ -36,7 +36,7 @@ namespace Deliverable1
                 PrintFailureMessage();
             }
 
-            // Local Methods
+            #region Methods
             void PrintWelcomeMessage()
             {
                 Console.WriteLine("Welcome! This simple application will ask you to create a fake password, and will then verify if your password meets a special set of criteria. \n");
@@ -90,6 +90,7 @@ namespace Deliverable1
                 Console.WriteLine("\nPress any key to quit.");
                 Console.ReadKey(true);
             }
+            #endregion
         }
     }
 }
