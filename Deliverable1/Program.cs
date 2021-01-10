@@ -6,8 +6,22 @@ namespace Deliverable1
     {
         static void Main(string[] args)
         {
-            string message = "Goodbye, World!";
-            Console.WriteLine(message);
+            // Init requirements
+            int minCharCount = 7;
+            int maxCharCount = 12;
+            char requiredSpecialChar = '!';
+            string successMessage = "Password valid and accepted";
+            string failMessage = "Error";
+
+            // Conditions to be met
+            bool hasLowercase;
+            bool hasUppercase;
+            bool withinMinRange;
+            bool withinMaxRange;
+            bool hasRequiredChar;
+
+            
+
         }
     }
 }
