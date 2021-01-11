@@ -21,13 +21,13 @@ namespace Deliverable1
             bool withinMinRange;
             bool withinMaxRange;
             bool hasRequiredChar;
-            bool isValid = false;
+            bool isValidPassword = false;
 
             // Main Sequence
             PrintWelcomeMessage();
             GetUserPassword();
             CheckPasswordValidity(userInput);
-            if (isValid)
+            if (isValidPassword)
             {
                 PrintSuccessMessage();
             }
@@ -69,7 +69,7 @@ namespace Deliverable1
 
                 if(hasLowercase && hasUppercase && withinMinRange && withinMaxRange && hasRequiredChar)
                 {
-                    isValid = true;
+                    isValidPassword = true;
                 }
             }
 
