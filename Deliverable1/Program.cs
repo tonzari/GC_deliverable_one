@@ -76,9 +76,7 @@ namespace Deliverable1
             void PrintFailureMessage()
             {
                 Console.WriteLine("\nYour results: \n");
-
                 Console.WriteLine(failMessage);
-
                 Console.WriteLine("\nPress any key to quit.");
                 Console.ReadKey(true);
             }
