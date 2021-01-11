@@ -65,7 +65,7 @@ namespace Deliverable1
                 hasUppercase = password.Any(char.IsUpper);
                 withinMinRange = password.Length >= minCharCount;
                 withinMaxRange = password.Length <= maxCharCount;
-                hasRequiredChar = password.Contains('!');
+                hasRequiredChar = password.Contains(requiredSpecialChar);
 
                 if(hasLowercase && hasUppercase && withinMinRange && withinMaxRange && hasRequiredChar)
                 {
